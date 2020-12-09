@@ -17,8 +17,8 @@ const Home = ({imageURL, description, navigationLinks, socialLinks}) => {
 Home.propTypes = {
     imageURL: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    navigationLinks: PropTypes.object.isRequired,
-    socialLinks: PropTypes.object.isRequired,
+    navigationLinks: PropTypes.array.isRequired,
+    socialLinks: PropTypes.array.isRequired,
 }
 
 export default Home

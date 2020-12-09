@@ -7,7 +7,7 @@ const SocialMedia = ({socialLinks}) => {
                 {socialLinks.map(link => (
                     <li>
                         <a href={link.link}>
-                            <i className={"fab fa-" + link.socialMedia}/>
+                            <i className={`fab fa-${link.socialMedia}`}/>
                         </a>
                     </li>
                 ))}
