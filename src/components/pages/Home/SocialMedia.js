@@ -5,7 +5,7 @@ const SocialMedia = ({socialLinks}) => {
         <Fragment>
             <ul>
                 {socialLinks.map(link => (
-                    <li>
+                    <li key={link.socialMedia}>
                         <a href={link.link}>
                             <i className={`fab fa-${link.socialMedia}`}/>
                         </a>

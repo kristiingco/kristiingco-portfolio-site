@@ -30,9 +30,18 @@ function App() {
                 }
               ]}
               socialLinks={[{
-                "socialMedia": "twitter",
-                "link": "https://twitter/arcanekind"
-              }]}
+                  "socialMedia": "facebook",
+                  "link": "https://facebook.com/kristiingco/"
+                }, 
+                {
+                  "socialMedia": "linkedin",
+                  "link": "https://linkedin.com/in/kristianaingco/"
+                },
+                {
+                  "socialMedia": "github",
+                  "link": "https://github.com/kristiingco"
+                }
+              ]}
               />
           </Route>
           <Route exact path="/about">

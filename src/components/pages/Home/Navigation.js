@@ -5,7 +5,7 @@ const Navigation = ({navigationLinks}) => {
         <Fragment>
             <ul>
                 {navigationLinks.map(link => (
-                    <li>
+                    <li key={link.title}>
                         <a href={link.link}>{link.title}</a>
                     </li>
                 ))}
