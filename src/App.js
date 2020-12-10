@@ -35,8 +35,19 @@ function App() {
               }]}
               />
           </Route>
+          <Route exact path="/about">
+              About
+          </Route>
+          <Route exact path="/experience">
+              Experience
+          </Route>
+          <Route exact path="/skills">
+              Skills
+          </Route>
+          <Route exact path="/contact">
+              Contact Us
+          </Route>
         </Switch>
-        
         
       </div>
     </Router>
