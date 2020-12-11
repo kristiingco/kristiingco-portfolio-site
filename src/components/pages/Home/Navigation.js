@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react'
+import { Link } from 'react-router-dom'
 
 const Navigation = ({navigationLinks}) => {
     return (
@@ -6,7 +7,7 @@ const Navigation = ({navigationLinks}) => {
             <ul>
                 {navigationLinks.map(link => (
                     <li key={link.title}>
-                        <a href={link.link}>{link.title}</a>
+                        <Link to={link.link}>{link.title}</Link>
                     </li>
                 ))}
             </ul>
