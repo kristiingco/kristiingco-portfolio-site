@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from './components/pages/Home/Home';
+import Experience from './components/pages/Experience/Experience'
 
 function App() {
   return (
@@ -47,9 +48,7 @@ function App() {
           <Route exact path="/about">
               About
           </Route>
-          <Route exact path="/experience">
-              Experience
-          </Route>
+          <Route exact path="/experience" component={Experience}/>
           <Route exact path="/skills">
               Skills
           </Route>
