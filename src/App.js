@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from './components/pages/Home/Home';
 import Experience from './components/pages/Experience/Experience'
+import About from './components/pages/About/About'
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
               />
           </Route>
           <Route exact path="/about">
-              About
+              <About imageURL="https://gamewith-en.akamaized.net/img/98b5636bf86a736707e906b570e538f8.jpg"/>
           </Route>
           <Route exact path="/experience" component={Experience}/>
           <Route exact path="/skills">
