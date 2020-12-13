@@ -1,12 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const About = ({ imageURL }) => {
+const About = ({ imageURL, description }) => {
     return (
         <div>
             <img src={imageURL}/>
-            <p>Hi I'm Kristi!</p>
+            <p>{ description }</p>
         </div>
     )
 }
 
+About.propTypes = {
+    imageURL: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+}
 export default About
