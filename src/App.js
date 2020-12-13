@@ -48,7 +48,10 @@ function App() {
               />
           </Route>
           <Route exact path="/about">
-              <About imageURL="https://gamewith-en.akamaized.net/img/98b5636bf86a736707e906b570e538f8.jpg"/>
+              <About 
+                imageURL="https://gamewith-en.akamaized.net/img/98b5636bf86a736707e906b570e538f8.jpg"
+                description="Hi I'm Kristi!"
+              />
           </Route>
           <Route exact path="/experience" component={Experience}/>
           <Route exact path="/skills">
