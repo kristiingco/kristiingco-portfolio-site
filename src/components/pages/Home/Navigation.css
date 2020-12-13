@@ -1,0 +1,28 @@
+.navigation-links {
+    text-align: center;
+    margin-left: -35px;
+}
+
+.navigation-links li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.navigation-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.navigation-links a:hover {
+    color: #086f58;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}

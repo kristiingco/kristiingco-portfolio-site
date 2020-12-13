@@ -1,8 +1,9 @@
-import React, {Fragment} from 'react'
+import React from 'react'
+import './SocialMedia.css'
 
 const SocialMedia = ({socialLinks}) => {
     return (
-        <Fragment>
+        <div className="social-links">
             <ul>
                 {socialLinks.map(link => (
                     <li key={link.socialMedia}>
@@ -12,7 +13,7 @@ const SocialMedia = ({socialLinks}) => {
                     </li>
                 ))}
             </ul>
-        </Fragment>
+        </div>
     )
 }
 

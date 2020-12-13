@@ -1,16 +1,17 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import Navigation from './Navigation';
 import SocialMedia from './SocialMedia';
+import './Home.css';
 
 const Home = ({imageURL, description, navigationLinks, socialLinks}) => {
     return (
-        <Fragment>
+        <div className="container">
             <img src={imageURL} className="main-image" alt="kristi" />
             <p className="description">{description}</p>
             <Navigation navigationLinks = {navigationLinks} />
-            <SocialMedia socialLinks = {socialLinks} />
-        </Fragment>
+            <SocialMedia className='social-links' socialLinks = {socialLinks} />
+        </div>
     )
 }
 
