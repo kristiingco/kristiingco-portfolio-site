@@ -1,0 +1,12 @@
+.social-links {
+    margin-left: -55px;
+}
+
+.social-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.social-links i {
+    color: #ffffff;
+}
