@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/pages/Home/Home';
 import Experience from './components/pages/Experience/Experience'
 import About from './components/pages/About/About'
+import Skill from './components/pages/Skill/Skill'
 
 function App() {
   return (
@@ -51,13 +52,18 @@ function App() {
           </Route>
           <Route exact path="/experience" component={Experience}/>
           <Route exact path="/skills">
-              Skills
+              <Skill skillList={[
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "React",
+                "Angular"
+              ]}/>
           </Route>
           <Route exact path="/contact">
               Contact Us
           </Route>
         </Switch>
-        
       </div>
     </Router>
   );
