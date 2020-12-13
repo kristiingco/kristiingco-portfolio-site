@@ -26,10 +26,6 @@ function App() {
                 {
                   "title": "Skills",
                   "link": "/skills"
-                }, 
-                {
-                  "title": "Contact Me",
-                  "link": "/contact"
                 }
               ]}
               socialLinks={[{
@@ -62,9 +58,6 @@ function App() {
                 "React",
                 "Angular"
               ]}/>
-          </Route>
-          <Route exact path="/contact">
-              Contact Us
           </Route>
         </Switch>
       </div>
