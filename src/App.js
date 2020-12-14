@@ -46,7 +46,15 @@ function App() {
           <Route exact path="/about">
               <About 
                 imageURL="https://gamewith-en.akamaized.net/img/98b5636bf86a736707e906b570e538f8.jpg"
-                description="Hi I'm Kristi!"
+                description={`
+                Hello! I'm Kristiana Ingco, but people usually call me Kristi!
+
+                I graduated with a Bachelor's Degree in Computer Science from Ateneo de Manila University and a GPA of 3.62! 
+
+                I am currently based in San Francisco, California, USA. 
+
+                As of the moment, I am looking for a full-time, entry-level position as a Software Engineer to futher hone my skills and contribute to solve problems and offer solutions that will help people.
+                `}
               />
           </Route>
           <Route exact path="/experience" component={Experience}/>
