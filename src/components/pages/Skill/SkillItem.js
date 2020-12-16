@@ -1,10 +1,11 @@
 import React from 'react'
+import './SkillItem.css'
 import PropTypes from 'prop-types'
 
 const SkillItem = ({ skill }) => {
     return (
-        <div>
-            <span>{skill}</span>
+        <div className="skill-item-container">
+            {skill}
         </div>
     )
 }

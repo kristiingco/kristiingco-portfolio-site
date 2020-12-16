@@ -1,0 +1,33 @@
+.skill-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-header {
+    margin-top: 50px;
+    color: white;
+    align-self: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    align-self: center;
+}
+
+@media all and (max-width: 1500px) {
+    .skills-container {
+        width: 50%;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .skills-container {
+        width: 100%;
+        justify-content: center;
+    }
+}
