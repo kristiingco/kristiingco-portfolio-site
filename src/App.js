@@ -13,7 +13,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home
-              imageURL="https://64.media.tumblr.com/3ea08052e7c57b0c06ccdbae8c34cdb3/1d5d9363b08e4751-6e/s640x960/2751402315c46681fc7e8810fe2dff1d7bba4ab7.jpg"
+              imageURL="img/home.png"
               description="I'm Kristi Ingco and I like to code meaningful and usable products for people."  
               navigationLinks={[{
                   "title": "About",
@@ -45,7 +45,7 @@ function App() {
           </Route>
           <Route exact path="/about">
               <About 
-                imageURL="https://gamewith-en.akamaized.net/img/98b5636bf86a736707e906b570e538f8.jpg"
+                imageURL="img/about.jpg"
                 description={`
                 Hello! I'm Kristiana Ingco, but people usually call me Kristi!
 
