@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './About.css'
 import PropTypes from 'prop-types'
+import Back from '../../Back'
 
 const About = ({ imageURL, description }) => {
     return (
-        <div className="about-container">
-            <img src={imageURL} className="about-image" alt="kristi"/>
-            <div className="about-description">
-                <p>{ description }</p>
+        <Fragment>
+            <div className="about-container">
+                <img src={imageURL} className="about-image" alt="kristi"/>
+                <div className="about-description">
+                    <p>{ description }</p>
+                </div>
             </div>
-        </div>
+        <Back />
+        </Fragment>
     )
 }
 
