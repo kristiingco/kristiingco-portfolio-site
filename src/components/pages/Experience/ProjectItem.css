@@ -1,0 +1,21 @@
+.project-item-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 14px 1px rgba(67, 106, 71, 0.5);
+}
+
+@media all and (max-width: 700px) {
+    .project-item-container {
+        margin: 10px auto;
+        width: 70%;
+    }
+}

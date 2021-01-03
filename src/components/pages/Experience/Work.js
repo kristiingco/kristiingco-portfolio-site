@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 const Work = ({ workList }) => {
     return (
         <div>
+            <h1>Work/Extracurricular Experience</h1>
            {workList.map(work => (
                <WorkItem work={ work }/>
            ))}  

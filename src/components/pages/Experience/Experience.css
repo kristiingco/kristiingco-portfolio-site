@@ -1,0 +1,11 @@
+.experience-container {
+    width: 45%;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 700px) {
+    .experience-container {
+        overflow-x: hidden;
+        width: 80%;
+    }
+}

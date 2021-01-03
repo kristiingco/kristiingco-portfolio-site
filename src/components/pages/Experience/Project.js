@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 const Project = ({ projectList }) => {
     return (
         <div>
+            <h1>Projects</h1>
            {projectList.map(project => (
                <ProjectItem project={ project }/>
                ))}  
