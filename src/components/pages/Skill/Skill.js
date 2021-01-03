@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import './Skill.css'
 import SkillItem from './SkillItem'
 import PropTypes from 'prop-types'
+import Back from '../../Back'
 
 const Skill = ({ skillList }) => {
     return (
@@ -12,6 +13,7 @@ const Skill = ({ skillList }) => {
                     <SkillItem skill={skilL}/>
                 ))}
             </div>
+            <Back />
         </div>
     )   
 }
