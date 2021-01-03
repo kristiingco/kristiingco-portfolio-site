@@ -13,6 +13,10 @@
     box-shadow: 2px 2px 14px 1px rgba(67, 106, 71, 0.5);
 }
 
+.project-link {
+    color: #738b7b;
+}
+
 @media all and (max-width: 700px) {
     .project-item-container {
         margin: 10px auto;
