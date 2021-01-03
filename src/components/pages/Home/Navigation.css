@@ -9,7 +9,7 @@
 }
 
 .navigation-links a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     transition: 1s;
     -webkit-transition: 1s;
@@ -19,7 +19,7 @@
 }
 
 .navigation-links a:hover {
-    color: #086f58;
+    color: #ffffff;
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
