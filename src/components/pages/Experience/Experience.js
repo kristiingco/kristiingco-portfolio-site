@@ -21,6 +21,11 @@ const Experience = () => {
                     timeline: "June 2019 - July 2019"
                 }]}/>
                 <Project projectList={[{
+                    title: "Catch Those Clothes!",
+                    link: "https://drive.google.com/file/d/1wSjzhYgRQuOmMKIo1SpdFaqX0g362K56/view?usp=sharing",
+                    description: "I decided to combine my love for art and coding as well as fortify design and object-oriented principles through game development. This game is a simple catcher game made from Unity using C#.",
+                },
+                {
                     title: "Bell and Pedre",
                     link: "https://bellandpedre.netlify.app/#/",
                     description: "I learned React, Gatsby, GraphSQL, and NetlifyCMS through my tasks as a React Developer. I created some of the components and helped in modifying the CMS. ",
