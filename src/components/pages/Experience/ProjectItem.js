@@ -7,7 +7,7 @@ const ProjectItem = ({ project }) => {
         <div className="project-item-container">
             <div className="project-item-info">
                 <h2>{project.title}</h2>
-                <a href={project.link}>Link</a>
+                <a href={project.link} className="project-link">Link</a>
                 <p>{project.description}</p>
             </div>
         </div>
