@@ -22,7 +22,7 @@ const Experience = () => {
                 }]}/>
                 <Project projectList={[{
                     title: "Catch Those Clothes!",
-                    link: "https://drive.google.com/file/d/1wSjzhYgRQuOmMKIo1SpdFaqX0g362K56/view?usp=sharing",
+                    link: "https://simmer.io/@frostedge/catch-those-clothes",
                     description: "I decided to combine my love for art and coding as well as fortify design and object-oriented principles through game development. This game is a simple catcher game made from Unity using C#.",
                 },
                 {
